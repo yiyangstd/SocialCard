@@ -119,6 +119,7 @@ class CardInfo(object):
             self.inputButton3['state'] = tkinter.NORMAL
         else:
             self.inputButton3['state'] = tkinter.DISABLED
+        messagebox.showinfo('查询结束', "查询结束，但由于网络原因，结果可能不准确，请将结果为：未制卡、网络错误的人员身份证再次输入程序进行查询，确保结果正确")
 
     # 点击导出按钮函数
     def output(self):
